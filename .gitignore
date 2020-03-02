@@ -1,0 +1,14 @@
+#gitignore
+*.rar
+*.pdf
+/venvnv
+/venv/
+/venv_/
+.venv/
+/.idea/
+/.vscode/
+/env/
+.env
+*.pyc
+*.sql
+*.map
