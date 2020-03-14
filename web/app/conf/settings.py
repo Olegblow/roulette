@@ -27,8 +27,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Local apps
+    'core',
 
-    # package
+    # 3th party
     'rest_framework',
 ]
 
@@ -118,3 +119,9 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = '/volumes/web/media'
 STATIC_ROOT = '/volumes/web/static'
 
+# drf config
+REST_FRAMEWORK = {
+    # 'DEFAULT_PERMISSION_CLASSES': [
+    #     'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    # ]
+}
