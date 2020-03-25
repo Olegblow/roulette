@@ -16,3 +16,7 @@ wcwidth==0.1.8
 zipp==3.0.0
 psycopg2-binary==2.8.4
 django-rest-swagger==2.2.0
+djoser
+pytest-django
+django-filter
+
